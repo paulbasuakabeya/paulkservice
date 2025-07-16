@@ -37,8 +37,8 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
           <ul className="text-sm space-y-2">
-            <li>Email: contact@paulkservice.com</li>
-            <li>Téléphone: +243 000 000 000</li>
+            <li>Email: paulbasuakabeya@gmail.com</li>
+            <li>Téléphone: +243 814961180</li>
             <li>Adresse: Kinshasa, RDC</li>
           </ul>
         </div>
