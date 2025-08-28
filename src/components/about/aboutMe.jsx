@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import photo from "../../assets/photo-about-me.jpg";
+import photo from "../../assets/photo-about-me.png";
 
 const skills = [
   { name: "JavaScript", level: "w-5/6", percent: 83 },
@@ -43,7 +43,7 @@ const AboutMe = () => {
           <img
             src={photo}
             alt="profile"
-            className="w-full h-auto max-w-full object-cover mx-auto mb-4 relative z-10 rounded-lg p-1"
+            className="w-full h-auto max-w-full object-cover mx-auto mb-4 relative z-10 rounded-lg p-1  g-blue-200"
           />
         </div>
 

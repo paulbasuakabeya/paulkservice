@@ -1,4 +1,5 @@
 import ContactPage from "../components/contact/contact";
+import ContactMap from "../components/contact/contactMaps";
 
 const Contact = () => {
     return (
@@ -8,6 +9,7 @@ const Contact = () => {
           <div className="w-20 h-0.5 bg-blue-500 mt-2 rounded"></div>
        </div>
        <ContactPage/>
+       <ContactMap/>
         
       </div>
     );

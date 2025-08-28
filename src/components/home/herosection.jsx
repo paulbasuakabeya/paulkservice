@@ -21,7 +21,7 @@ const HeroSection = () => {
         <div className="text-justify text-gray-800 text-base max-w-xl mx-auto py-8 md:py-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center md:text-left">
             I'm Web Developer <br />
-            <span className="text-indigo-600">Natalie E. Watson</span>
+            <span className="text-indigo-600">Kabeya P. Basua</span>
           </h1>
           <p className="mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper mattis, pulvinar dapibus leo ullamcorper.
