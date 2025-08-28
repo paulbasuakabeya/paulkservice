@@ -37,8 +37,8 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
           <ul className="text-sm space-y-2">
-            <li>Email: contact@paulkservice.com</li>
-            <li>Téléphone: +243 000 000 000</li>
+            <li>Email: paulbasuakabeya@gmail.com</li>
+            <li>Téléphone: +243 814961180</li>
             <li>Adresse: Kinshasa, RDC</li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Suivez-nous</h3>
           <div className="flex space-x-4 text-xl">
-            <a href="#" className="hover:text-white"><FaFacebookF /></a>
+            <a href="https://web.facebook.com/profile.php?id=100075705774517&locale=fr_FR" className="hover:text-white"><FaFacebookF /></a>
             <a href="#" className="hover:text-white"><FaTwitter /></a>
             <a href="#" className="hover:text-white"><FaLinkedinIn /></a>
             <a href="#" className="hover:text-white"><FaInstagram /></a>
