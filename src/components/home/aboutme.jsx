@@ -9,7 +9,7 @@ const AboutMe = () => {
         <h1 className="text-4xl font-bold mb-4">About Me</h1>
         <div className="inline-block relative">
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Passionné par le développement web et les nouvelles technologies
           </p> <br />
           <span className="block h-0.5 w-24 bg-blue-500 mx-auto mt-1 rounded-full"></span>
         </div>
@@ -22,19 +22,17 @@ const AboutMe = () => {
           <div>
             <div className="inline-block relative mb-4">
               <h2 className="text-2xl font-semibold">
-                Developing With a Passion While Exploring The World.
+                Développer avec passion tout en explorant le monde.
               </h2>
               <br />
               <span className="block h-0.5 w-20 bg-blue-500 mt-1 rounded-full"></span>
             </div>
 
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-              ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Ingénieur en réseaux informatiques et développeur web, j’aime relever de nouveaux défis et travailler sur des solutions qui allient créativité et technologie. J’accorde une grande importance à l’apprentissage continu et à la collaboration.
             </p>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Toujours motivé par l’envie de progresser, je reste attentif aux dernières évolutions du secteur pour proposer des services adaptés et performants.
             </p>
 
             {/* Bouton mobile */}
@@ -56,20 +54,19 @@ const AboutMe = () => {
         {/* Bloc milieu centré verticalement */}
         <div className="flex flex-col justify-center h-full space-y-4">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-            ullamcorper mattis, pulvinar dapibus leo.
+            Vous souhaitez discuter d’un projet ou en savoir plus sur mon parcours ? N’hésitez pas à me contacter, je serai ravi d’échanger avec vous.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Disponible pour des collaborations, des missions freelance ou toute opportunité professionnelle.
           </p>
         </div>
 
         {/* Bloc image */}
-        <div className="relative bg-blue-500 p-2 rounded-lg shadow-lg overflow-hidden h-[250px] md:h-[450px] lg:h-[500px]">
+        <div className="relative bg-blue-500 p-2 rounded-lg shadow-lg overflow-hidden h-[350px] md:h-[450px] lg:h-[500px]">
           <img
             src={Pc}
             alt="About me"
-            className="w-full h-full object-cover rounded-lg relative z-10 -translate-x-1 -translate-y-1"
+            className="w-full h-full object-cover object-center rounded-lg relative z-10"
           />
         </div>
       </div>

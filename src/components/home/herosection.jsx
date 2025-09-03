@@ -11,20 +11,20 @@ const HeroSection = () => {
         {/* Icônes sociaux visibles uniquement sur md+ */}
         <div className="hidden md:flex flex-col fixed left-[60px] top-1/2 -translate-y-1/2 gap-5 text-indigo-600 text-xl z-10">
           <a href="#"><FaWhatsapp /></a>
-          <a href="#"><FaFacebook /></a>
+          <a href="https://web.facebook.com/profile.php?id=100075705774517&locale=fr_FR"><FaFacebook /></a>
           <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGithub /></a>
+          <a href="https://github.com/paulbasuakabeya"><FaGithub /></a>
           <a href="#"><FaTwitter /></a>
         </div>
 
         {/* Texte principal */}
         <div className="text-justify text-gray-800 text-base max-w-xl mx-auto py-8 md:py-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center md:text-left">
-            I'm Web Developer <br />
-            <span className="text-indigo-600">Kabeya P. Basua</span>
+          <h1 className="text-2xl md:text-4xl  mb-4 text-center md:text-left">
+            Je suis Développeur Web <br />
+            <span className="text-indigo-600 text-4xl md:text-5xl font-bold">Kabeya P. Basua</span>
           </h1>
           <p className="mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper mattis, pulvinar dapibus leo ullamcorper.
+           Je suis aussi ingénieur en réseaux informatiques. Passionné par la création de sites et d’applications modernes, j’aide les entreprises à atteindre leurs objectifs numériques grâce à des solutions sur mesure.
           </p>
           <div className="text-center md:text-left">
             <button className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition">

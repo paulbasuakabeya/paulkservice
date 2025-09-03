@@ -66,11 +66,11 @@ const Navbar = () => {
         <div className="p-5">
           {/* Logo circulaire dans le menu mobile */}
           <Link to="/" onClick={handleLinkClick} className="flex justify-center mb-6">
-            <div className="w-20 h-20 rounded-full bg-white shadow-md flex items-center justify-center border border-indigo-300 hover:shadow-lg transition">
+            <div className="w-20 h-20 rounded-full bg-indigo-600 shadow-md flex items-center justify-center border border-indigo-300 hover:shadow-lg transition">
               <img
                 src={logo}
                 alt="Logo"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-16 h-16 rounded-full object-cover bg-black"
               />
             </div>
           </Link>
