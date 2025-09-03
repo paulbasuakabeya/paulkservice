@@ -28,7 +28,7 @@ const WorkExperience = () => {
         <h2 className="text-4xl font-bold mb-4">Work Experience</h2>
         <div className="inline-block relative">
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mon expérience et mes compétences dans le numérique.
           </p>
           <span className="block h-0.5 w-24 bg-blue-500 mx-auto mt-1 rounded-full"></span>
         </div>
@@ -38,13 +38,13 @@ const WorkExperience = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl mx-auto mb-12">
         <ExperienceCard
           title="UI/UX Designer"
-          years="2015–2018"
+          years="Depuis-2022"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
           level={85}
         />
         <ExperienceCard
-          title="Web Designer"
-          years="2015–2018"
+          title="Reséaux Informatique"
+          years="Depuis-2018"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
           level={75}
         />
@@ -54,19 +54,19 @@ const WorkExperience = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
         <ExperienceCard
           title="Web Developer"
-          years="2015–2018"
+          years="Depuis-2018"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
           level={90}
         />
         <ExperienceCard
-          title="Graphic Designer"
-          years="2015–2018"
+          title="Maintenance Informatique"
+          years="Depuis-2018"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
           level={70}
         />
         <ExperienceCard
           title="Marketing"
-          years="2015–2018"
+          years="Depuis-2018"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
           level={65}
         />

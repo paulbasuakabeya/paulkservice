@@ -32,10 +32,10 @@ const ServicesSection = () => {
     <section className="px-6 py-16 bg-gray-50 overflow-x-hidden">
       {/* Titre principal */}
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">What Services I'm Providing</h2>
+        <h2 className="text-4xl font-bold mb-4">Quels Services Je Propose</h2>
         <div className="inline-block relative">
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            J’accompagne vos projets digitaux avec expertise.
           </p>
           <span className="block h-0.5 w-24 bg-blue-500 mx-auto mt-1 rounded-full"></span>
         </div>
@@ -46,17 +46,17 @@ const ServicesSection = () => {
         <ServiceCard
           icon={<FaDesktop />}
           title="UI/UX Design"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je conçois des interfaces intuitives et attractives pour garantir la meilleure expérience utilisateur possible. J’accorde une attention particulière à l’ergonomie et à l’esthétique de chaque projet."
         />
         <ServiceCard
           icon={<FaBullhorn />}
           title="Digital Marketing"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je vous aide à développer votre présence en ligne et à atteindre vos objectifs grâce à des stratégies de communication sur mesure : réseaux sociaux, référencement, campagnes publicitaires et analyse de performance."
         />
         <ServiceCard
           icon={<FaCogs />}
           title="Web Development"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je réalise des sites web modernes, performants et adaptés à vos besoins. Du site vitrine à l’application web, je m’assure que chaque solution soit sécurisée, évolutive et facile à utiliser."
         />
       </div>
 
@@ -64,7 +64,9 @@ const ServicesSection = () => {
       <div className="text-center mt-20">
         <h2 className="text-4xl font-bold mb-4">Working Process</h2>
         <p className="text-gray-700 max-w-xl mx-auto mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          J’adopte une approche méthodique et collaborative.
+          <br />
+         Chaque étape vise à répondre à vos besoins et garantir la qualité.
         </p>
         <div className="h-64 max-w-4xl mx-auto aspect-video rounded-lg overflow-hidden shadow-lg">
           <iframe
