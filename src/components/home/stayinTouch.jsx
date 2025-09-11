@@ -21,7 +21,7 @@ const StayInTouch = () => {
     <section className="mt-16 py-10 px-6 rounded-lg max-w-3xl mx-auto text-center ">
       <h3 className="text-2xl font-bold text-gray-800 mb-4">Stay In Touch</h3>
       <p className="text-gray-600 mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        Je reste à votre écoute pour toute question, projet ou demande d’information. N’hésitez pas à me contacter à tout moment.
       </p>
       <span className="block h-0.5 w-24 bg-blue-500 mx-auto mb-6 rounded-full"></span>
 

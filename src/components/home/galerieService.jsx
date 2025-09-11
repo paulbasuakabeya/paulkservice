@@ -34,7 +34,7 @@ const GalleryService = () => {
   return (
     <section className="px-6 py-16 bg-violet-100bg-gray-100 text-center">
       <h2 className="text-4xl font-bold mb-2">My Galerie Service</h2>
-      <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p className="text-gray-700">Mes réalisations et projets à travers cette galerie dédiée.</p>
       <span className="block h-0.5 w-24 bg-blue-500 mx-auto mt-1 rounded-full"></span>
 
       <div className="overflow-hidden w-full max-w-6xl mx-auto mt-10">

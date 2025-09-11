@@ -8,17 +8,17 @@ const testimonials = [
   {
     name: 'John Doe',
     image: img1,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+    text: 'Service professionnel, grande écoute à chaque étape du projet : je suis pleinement satisfait du résultat obtenu.  ',
   },
   {
     name: 'Jane Smith',
     image: img2,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+    text: ' Travail de qualité, respect total des délais et résultats vraiment à la hauteur de mes attentes, je recommande sans hésiter.',
   },
   {
     name: 'Paul Kabeya',
     image: img3,
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+    text: 'Je recommande vivement pour son expertise, sa réactivité et son engagement constant à fournir des solutions adaptées. ',
   },
 ];
 
@@ -70,7 +70,7 @@ const ClientTestimonials = () => {
   return (
     <section className="bg-white px-6 py-16 text-center">
       <h2 className="text-4xl font-bold mb-2">What My Clients Say</h2>
-      <p className="text-gray-700 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p className="text-gray-700 mb-2">Découvrez les témoignages et avis de mes clients satisfaits.</p>
       <span className="block h-0.5 w-20 bg-blue-500 mx-auto rounded-full mb-10"></span>
 
       {isMobile ? (

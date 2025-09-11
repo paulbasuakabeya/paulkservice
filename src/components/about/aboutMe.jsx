@@ -5,7 +5,7 @@ import photo from "../../assets/photo-about-me.png";
 const skills = [
   { name: "JavaScript", level: "w-5/6", percent: 83 },
   { name: "CSS/Tailwind/Bootstrap/Component", level: "w-11/12", percent: 92 },
-  { name: "HTML", level: "w-full", percent: 100 },
+  { name: "HTML", level: "w-9/10", percent: 90 },
   { name: "React", level: "w-10/12", percent: 83 },
   { name: "SQL / MongoDB", level: "w-4/6", percent: 66 },
 ];
@@ -54,18 +54,20 @@ const AboutMe = () => {
           </h3>
           <div className="w-16 h-0.5 bg-blue-500 mb-4 rounded"></div>
           <p className="break-words text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Depuis plusieurs années, je me consacre au développement et à la conception de solutions numériques innovantes. 
+    
           </p>
           <p className="break-words text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Mon objectif est de transformer des idées en projets concrets qui apportent une véritable valeur aux utilisateurs.
           </p>
           <br />
           <p className="break-words mb-4 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Mon parcours m’a permis de travailler sur divers projets, allant de la création de sites web 
+    à la mise en place de systèmes informatiques complets, avec une approche orientée vers la qualité et l’efficacité.
           </p>
           <br />
           <p className="text-gray-700 font-medium">Let's talk with me.</p>
-          <p className="break-words">contact@domain.com</p>
+          <p className="break-words">paulbasuakabeya @gmail.com</p>
         </div>
 
         {/* Right Block */}
@@ -74,11 +76,12 @@ const AboutMe = () => {
           <div className="w-16 h-0.5 bg-blue-500 mb-4 rounded"></div>
           <br />
           <p className="mb-2 break-words text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+             Chaque projet est pour moi l’occasion de concevoir une expérience unique, où le design et la technologie 
+    se complètent pour répondre aux besoins réels des utilisateurs.
           </p>
           <br /><br />
           <p className="mb-4 break-words text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Mon approche repose sur l’innovation, l’écoute et la collaboration. 
           </p>
           <div className="flex gap-4 flex-wrap">
             <FaFacebookF className="text-blue-600" />
@@ -95,14 +98,14 @@ const AboutMe = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Frontend and Backend Developer</h3>
           <p className="mb-2 break-words text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Côté frontend, j’utilise des technologies comme React, Tailwind CSS et JavaScript 
+            pour créer des interfaces dynamiques, responsives et accessibles sur tous les supports. 
           </p>
           <p className="mb-2 break-words text-justify">
-            ullamcorper mattis, pulvinar dapibus leo...
+            En backend, je maîtrise Node.js, Express et MongoDB pour mettre en place des API robustes, 
+            sécurisées et optimisées, garantissant une parfaite interaction entre l’interface et la base de données.
           </p>
-          <p className="mb-4 break-words text-justify">
-            adipisci elit. Ut elit tellus, luctus nec ullamcorper...
-          </p>
+          
           <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition">
             Download CV
           </button>

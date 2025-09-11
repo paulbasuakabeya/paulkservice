@@ -39,13 +39,13 @@ const WorkExperience = () => {
         <ExperienceCard
           title="UI/UX Designer"
           years="Depuis-2022"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je crée des interfaces modernes, intuitives et attrayantes pour offrir une expérience utilisateur fluide et agréable."
           level={85}
         />
         <ExperienceCard
           title="Reséaux Informatique"
           years="Depuis-2018"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="J’assure la configuration, la gestion et la sécurisation des réseaux pour garantir performance et fiabilité."
           level={75}
         />
       </div>
@@ -55,19 +55,19 @@ const WorkExperience = () => {
         <ExperienceCard
           title="Web Developer"
           years="Depuis-2018"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je développe des sites web modernes, responsives et optimisés pour une meilleure expérience utilisateur."
           level={90}
         />
         <ExperienceCard
           title="Maintenance Informatique"
           years="Depuis-2018"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="J’interviens pour diagnostiquer, réparer et optimiser les systèmes afin d’assurer leur bon fonctionnement."
           level={70}
         />
         <ExperienceCard
           title="Marketing"
           years="Depuis-2018"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          description="Je conçois des stratégies digitales pour améliorer la visibilité, attirer des clients et accroître les performances."
           level={65}
         />
       </div>

@@ -37,7 +37,7 @@ const ServiceSection = () => {
       What Service You Will Get From Me
       </h1>
       <p className="text-lg text-center text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Des Solutions Modernes, Performantes et Adaptées à vos besoins.
       </p>
 
       {/* Mobile : 3 sliders avec directions différentes */}
