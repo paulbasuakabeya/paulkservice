@@ -1,4 +1,5 @@
 import ServiceSection from "../components/portfolio/serviceSection";
+import ExperienceEducation from "../components/portfolio/experience";
 
 const Portfolio = () => {
     return (
@@ -8,6 +9,7 @@ const Portfolio = () => {
           <div className="w-20 h-1 bg-blue-500 mt-2 rounded"></div>
        </div>
         <ServiceSection />
+        <ExperienceEducation />
       </div>
     );
   };
