@@ -1,6 +1,7 @@
 import AboutMe from "../components/about/aboutMe";
 import ClientTestimonials from "../components/home/clientestimonial";
 import StayInTouch from "../components/home/stayinTouch";
+import VideoPlayer from "../components/about/videoplayer";
 
 const About = () => {
     return (
@@ -12,6 +13,7 @@ const About = () => {
         
         <AboutMe />
         <ClientTestimonials/>
+        <VideoPlayer/>
         <StayInTouch/>
       </div>
     );
