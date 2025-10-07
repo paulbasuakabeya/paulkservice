@@ -1,5 +1,5 @@
 import React from "react";
-import demoVideo from "../../images/videoservices.mp4"; // si la vidéo est dans ton projet
+import demoVideo from "../../images/fin_cours_kadea2023.mp4"; // si la vidéo est dans ton projet
 
 const VideoPlayer = () => {
   return (

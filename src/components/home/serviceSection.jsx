@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaDesktop, FaBullhorn, FaCogs, FaArrowRight } from 'react-icons/fa';
+import VideoPlayer from '../about/videoplayer';
 
 const ServiceCard = ({ icon, title, description }) => {
   const [clicked, setClicked] = useState(false);
@@ -64,19 +65,12 @@ const ServicesSection = () => {
       <div className="text-center mt-20">
         <h2 className="text-4xl font-bold mb-4">Working Process</h2>
         <p className="text-gray-700 max-w-xl mx-auto mb-8">
-          J’adopte une approche méthodique et collaborative.
-          <br />
-         Chaque étape vise à répondre à vos besoins et garantir la qualité.
+          🎥 KADEA 2023 – Cérémonie avec Vodacom Congo. </p>
+        <p className='text-xs'>
+        Avec l’intervention du haut représentant de Vodacom Congo, cette cérémonie a célébré la réussite des jeunes développeurs formés à la Kinshasa Digital Academy..
         </p>
-        <div className="h-64 max-w-4xl mx-auto aspect-video rounded-lg overflow-hidden shadow-lg">
-          <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Working Process Video"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <div className="">
+          <VideoPlayer/> 
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ const ExperienceEducation = () => {
     {
       title: "Ingénieur Réseaux et Télécoms",
       company: "ESMICOM - Kinshasa",
-      period: "2017 - 2020",
+      period: "2017 - 2022",
       description:
         "Licence en Réseaux et Télécommunications, avec une solide base en systèmes informatiques et télécoms.",
       image: "/images/education.png",
@@ -13,7 +13,7 @@ const ExperienceEducation = () => {
     {
       title: "Stagiaire Informatique",
       company: "CRENK - Centre Régional de Recherche Nucléaire",
-      period: "2020",
+      period: "2021-2022",
       description:
         "Interventions en maintenance informatique, gestion de serveur, spectromètre et autres pannes complexes.",
       image: "/images/internship.png",
@@ -37,7 +37,7 @@ const ExperienceEducation = () => {
     {
       title: "Formation en Management",
       company: "Tony Elumelu Foundation",
-      period: "2023",
+      period: "2021",
       description:
         "Programme de formation en management, leadership et entrepreneuriat dispensé par la Tony Elumelu Foundation.",
       image: "/images/management.png",

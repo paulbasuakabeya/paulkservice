@@ -15,7 +15,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      {/* Grille 3 colonnes avec marges horizontales sur PC */}
+      {/* Grille 3 colonnes avec marges horizontales sur P */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto items-start mx-0 md:mx-20">
         {/* Bloc gauche */}
         <div className="flex flex-col justify-between h-full">
