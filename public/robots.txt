@@ -1,0 +1,11 @@
+# robots.txt for Paul K Service
+
+User-agent: *
+Allow: /
+
+Sitemap: https://paulkservice.vercel.app/sitemap.xml
+
+# Bloquer les répertoires sensibles
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
